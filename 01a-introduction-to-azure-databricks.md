@@ -59,7 +59,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. Specify the following table attributes:
 
-    - **Table Name**: GMCData
+    - **Table Name**: gmcdata
     - **Create in Database**: default
     - **File Type**: CSV
     - **Column Delimiter**: , *(comma)*
