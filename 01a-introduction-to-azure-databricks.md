@@ -57,15 +57,15 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. After the file is uploaded to the workspace, select **Create Table with UI**. Then select your cluster and select **Preview Table**.
 
-1. Specify the following table attributes:
+1. Specify the following table attributes:(Includes selecting the option for Advanced Attributes)
 
     - **Table Name**: gmcdata
     - **Create in Database**: default
     - **File Type**: CSV
     - **Column Delimiter**: , *(comma)*
     - **First row is header**: *checked*
-    - **Infer schema**: *checked*
-    - **Multi-line**: *unchecked*
+    - **Automatically detect column types**: *checked*
+    - **Rows span multiple lines**: *unchecked*
 
 1. Check (and if required set) the approprate data type for each column in the table
 
