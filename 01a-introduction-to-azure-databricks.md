@@ -15,7 +15,7 @@ To begin, you need to have access to an Azure Databricks workspace with an inter
 
 To use Azure Databricks, you first need to deploy an Azure Databricks workspace in your Azure subscription and create a cluster on which you will run notebooks and code. You can then upload the data and notebooks to experiment with in your workspace.
 
-### Deploy an Azure Databricks workspace
+### Deploy an Azure Databricks workspace   
 
 1. In the Azure portal 'https://portal.azure.com', create a new **Azure Databricks** resource, specifying the following settings:
    - **Subscription**: *Choose the Azure Subscription in which to deploy the workspace.*
