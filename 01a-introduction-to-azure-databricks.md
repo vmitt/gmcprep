@@ -51,11 +51,11 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. Download `SynthGMCData.csv` from `https://drive.google.com/file/d/1vhHw8AwigJtI4IeZmNlM1hrPxiAi53Ou/view?usp=sharing` to your computer and save it in any folder.
 
-1. On the **Data** page in the Databricks Workspace, select the option to **Upload file**.
+1. On the **Data** page in the Databricks Workspace, Select the option "Add Data" and select the option to **Upload Data** from multiple options after Add data.
 
 1. In the **Files** area, select **browse** and then browse to the file you downloaded.
 
-1. After the file is uploaded to the workspace, select **Create Table with UI**. Then select your cluster and select **Preview Table**.
+1. After the file is uploaded to the workspace (This may take a couple of mins), select **Create Table with UI**. Then select your cluster and select **Preview Table**. It may also happen that table sample preview data comes immediately after the dataupload completed successfully. 
 
 1. Specify the following table attributes:(Includes selecting the option for Advanced Attributes)
 
@@ -71,7 +71,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. Click **Create Table**.
 
-1. After the table has been created, view it in the **Data** section.
+1. After the table has been created, view it in the **Data** section. Alternatively it can be also seen in Data Explorer under hive metastore. 
 
 ### Import Databricks notebooks
 
@@ -80,7 +80,8 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 1. In the blade that appears, select the downwards pointing chevron (**v**) next to your name, and select **Import**.
 
 1. On the **Import Notebooks** dialog, import the notebook archives which are available in the following URL (with .dbc extension), noting that for each upload a folder with the archive name is created, containing one or more notebooks:
-   - `https://drive.google.com/drive/folders/1xb30TBrtN50JZteKtvD8AS5CYcb-e9_E?usp=sharing`
+   - `https://drive.google.com/drive/folders/1DPoRBQwINd1G3p41NGtmMxru49lrt8p0?usp=share_link`
+   - You can also download the dbc files from this location to your local machine and can upload.
 
 ## Explore Azure Databricks
 
