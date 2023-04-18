@@ -22,6 +22,12 @@ In this exercise, you will learn how to load and manipulate data inside the Azur
 
 1. In the Azure Databricks Workspace, using the command bar on the left, select **Workspace**. Then select **Users**, and **&#9751; *your_user_name***. Then in the folder named **02 - Training and Evaluating Machine Learning Models**, open the **1.0 Featurization** notebook.
 
+1. Lets see how to view the DBFS - 
+a) Go to extreme top right corner of your Databricks console. Under your user email, select the drop down and click "Admin Settings". 
+b) Go to Workspace Settings tab, and search for DBFS File Browser Option and Enable it. Refresh the page. 
+c) Go to Data option on left, click "Browse DBFS".
+d) Under /FileStore/tables click the upload option and select the source CSV file and upload + Done it. 
+
 1. Attach the notebook to your cluster. Then read the notes in the notebook, running each code cell in turn.
 
 ## Clean-up
