@@ -49,7 +49,7 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 ### Upload data
 
-1. Download `SynthGMCData.csv` from `https://drive.google.com/file/d/1vhHw8AwigJtI4IeZmNlM1hrPxiAi53Ou/view?usp=sharing` to your computer and save it in any folder.
+1. Download `SynthGMCData.csv` from `https://drive.google.com/drive/folders/1UAhyIpJmZIQ8RArJGW76MHbjaiN-xC2K?usp=share_link` to your computer and save it in any folder.
 
 1. On the **Data** page in the Databricks Workspace, Select the option "Add Data" and select the option to **Upload Data** from multiple options after Add data.
 
@@ -79,9 +79,9 @@ To use Azure Databricks, you first need to deploy an Azure Databricks workspace 
 
 1. In the blade that appears, select the downwards pointing chevron (**v**) next to your name, and select **Import**.
 
-1. On the **Import Notebooks** dialog, import the notebook archives which are available in the following URL (with .dbc extension), noting that for each upload a folder with the archive name is created, containing one or more notebooks:
-   - `https://drive.google.com/drive/folders/1DPoRBQwINd1G3p41NGtmMxru49lrt8p0?usp=share_link`
-   - You can also download the dbc files from this location to your local machine and can upload.
+1. On the **Import Notebooks** dialog, import the notebook archives which are available in the following URL (with .dbc extension), noting that for each upload a folder with the archive name is created, containing one or more notebooks: Download the dbc files from this location to your local machine and can upload.
+   - `https://drive.google.com/drive/folders/1UAhyIpJmZIQ8RArJGW76MHbjaiN-xC2K?usp=share_link`
+   
 
 ## Explore Azure Databricks
 
