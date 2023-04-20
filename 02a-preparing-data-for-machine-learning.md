@@ -26,7 +26,7 @@ In this exercise, you will learn how to load and manipulate data inside the Azur
 a) Go to extreme top right corner of your Databricks console. Under your user email, select the drop down and click "Admin Settings". 
 b) Go to Workspace Settings tab, and search for DBFS File Browser Option and Enable it. Refresh the page. 
 c) Go to Data option on left, click "Browse DBFS".
-d) Under /FileStore/tables click the upload option and select the source CSV file and upload + Done it. 
+d) Under /FileStore/tables click the upload option and select the source CSV file (SynthGMCdata.csv) and upload + Done it. 
 
 1. Attach the notebook to your cluster. Then read the notes in the notebook, running each code cell in turn.
 
